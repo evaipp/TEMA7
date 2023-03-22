@@ -1,0 +1,16 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        SintornizadorFM a, b;
+        a = new SintornizadorFM(107);
+        a.uo(); a.up(); a.up(),
+        a.display();
+        b = new SimtonizadorFM(80.5);
+        b.down(); b.down(); b.down();
+        b.display();
+        a = new SintomatizadorFM(200);
+        a.display();
+        
+        
+    }
+}
+
