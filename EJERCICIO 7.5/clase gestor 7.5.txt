@@ -1,0 +1,20 @@
+public class Gestor
+public String nombre;
+privare String tlf;
+double importeMax;
+public Gestor(String nombre, String tlf, double importeMax){
+this.nombre = nombre ;
+this.tlf = tlf;
+this.importeMax = importeMax;
+}
+public gestor(String nombre, string tlf){
+this(nombre, tlf, 1000.0);
+}
+String gettlf() {
+return tlf;
+}
+void mostrarinformacion(){
+System.out.println("Nombre: " + nombre);
+System.out.println("telefono: " + tlf);
+System.out.println("Importe maximo; " + importeMax + " euros");
+}
