@@ -1,0 +1,18 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        private int ultimapagina;
+        public int ultimapagina() {
+            ultimapagina = 1;
+        
+    }
+     void siguiente() {
+        ultimapagina++; ultimapagina = 3
+       }
+       void comenzar() {
+        ultimapagina = 1;
+
+       }
+       ultimapaginaLeida(); {
+        return ultimaPagina;
+        
+       }

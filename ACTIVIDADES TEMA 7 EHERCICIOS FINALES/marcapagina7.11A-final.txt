@@ -1,0 +1,31 @@
+ public static void main(String[] args) {
+        Marcapagina marca;
+        marca = new Marcapagina();
+        marca.siguientePag();
+        marca.siguientePag();
+        marca.siguientePag();
+        System.out.println("Última página: " + marca.ultimaPaginaLeida());
+        marca.comenzar();
+        System.out.println("Última página: " + marca.ultimaPaginaLeida());
+ }
+  
+  CLASE Marcapagina
+  public class Marcapagina {
+     private int ultimaPagina;
+  }
+  
+     public Marcapagina() {
+        ultimaPagina = 1;
+     }
+  
+     void siguientePag() {
+        ultimaPagina++;
+     }
+  
+     void comenzar() {
+        ultimaPagina = 1;
+     }
+  
+     int ultimaPaginaLeida() {
+        return ultimaPagina;
+     }
